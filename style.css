@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+:root {
+    --spacing-1: 6px;
+    --spacing-2: 10px;
+    --spacing-3: 14px;
+    --spacing-4: 22px;
+  
+    --border-radius: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto Slab", serif;
+	margin: 0 auto;
+    padding: 0 var(--spacing-3);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    background-color: whitesmoke;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    font-family: "Roboto Slab", serif;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: var(--spacing-3) 0;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 200;
+    color: var(--font-color);
+}
+
+p {
+    font-family: "Raleway", serif;
+}
+
+footer {
+    margin-top: auto;
+    padding: var(--spacing-2);
+    text-align: center;
+    display: block;
+}
+
+.nav-items {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+}
+
+.nav-item {
+    margin: var(--spacing-1);
+}
+
+.linkedin {
+    color: skyblue;
+}
